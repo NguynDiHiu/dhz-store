@@ -164,3 +164,20 @@ footer{
   .banner img{max-width:320px; width:80%}
   .nav-links{display:none} /* keep simple; you can add a hamburger later */
 }
+
+.product .thumb {
+  width: 100%;
+  aspect-ratio: 4 / 3; /* ảnh luôn giữ cùng tỉ lệ */
+  overflow: hidden;
+  border-radius: 10px;
+  background: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product .thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* cắt đều ảnh để khung đồng bộ */
+}
