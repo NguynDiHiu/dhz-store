@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DHZ - KeyRambit Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>DHZ</h1>
+    <p>KeyRambit Store</p>
+  </header>
+
+  <main>
+    <section class="products">
+      <article class="product">
+        <h2>KeyRambit Classic</h2>
+        <p>Thiết kế mạnh mẽ, bền bỉ.</p>
+        <button onclick="location.href='mailto:yourmail@example.com?subject=Order KeyRambit Classic'">
+          Mua ngay
+        </button>
+      </article>
+
+      <article class="product">
+        <h2>KeyRambit Pro</h2>
+        <p>Dành cho game thủ và sưu tầm.</p>
+        <button onclick="location.href='mailto:yourmail@example.com?subject=Order KeyRambit Pro'">
+          Mua ngay
+        </button>
+      </article>
+
+      <article class="product">
+        <h2>KeyRambit Limited</h2>
+        <p>Phiên bản giới hạn, số lượng ít.</p>
+        <button onclick="location.href='mailto:yourmail@example.com?subject=Order KeyRambit Limited'">
+          Mua ngay
+        </button>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 DHZ - nguyenduyhieu</p>
+  </footer>
+</body>
+</html>
